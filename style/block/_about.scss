@@ -1,0 +1,59 @@
+.about {
+    min-height: 708px;
+    padding-bottom: 114px;
+}
+.container {
+}
+.about-container {
+}
+.about__title {
+    font-size: 63px;
+line-height: 76px;
+padding-bottom: 30px;
+
+}
+.about__subtitle {
+    width: 870px;
+    font-weight: 300;
+font-size: 26px;
+line-height: 34px;
+color: #070707;
+padding-bottom: 50px;
+}
+.about__content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 47px;
+    background: 
+    url(../assets/img/about/about-bg.svg) left -76px bottom no-repeat;
+} 
+.about__content-text {
+    font-weight: 300;
+font-size: 20px;
+line-height: 28px;
+color: #000000;
+width: 470px;
+padding-bottom: 30px;
+
+}
+.about-btn {
+    align-self: flex-start;
+}
+.about__signature {
+    position: absolute;
+    bottom: 4px;
+    left: 241px;
+    font-family:"latomedium" ;
+    font-size: 16px;
+line-height: 24px;
+text-align: right;
+color: #888888;
+}
+.about__img{
+
+}
+.about__content-text-box{
+    
+   
+}

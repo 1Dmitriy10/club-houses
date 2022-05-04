@@ -1,0 +1,30 @@
+.video {
+    min-height: 534px;
+    background:
+    url(../assets/img/video/video-bg-player.png)  right 577px top 146px no-repeat,
+    url(../assets/img/video/video-bg-img.png) right 347px top 6px no-repeat,
+    url(../assets/img/video/video-bg-noyt.png) right 273px top -38px no-repeat,
+    url(../assets/img/video/video-bg-text.png) no-repeat,
+    ;
+    padding-bottom: 150px;
+}
+
+.video-container {
+    position: relative;
+}
+.video__title {
+    font-size: 50px;
+line-height: 60px;
+width: 608px;
+
+}
+.video__btn {
+    width: 82px;
+    height: 82px;
+    position: absolute;
+    right: 239px;
+    top: 153px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1166px;
+    // outline: 1px solid red;
+}
+@font-face {
+    font-family: "latosemibold";
+    src: url(../assets/fonts/latosemibold.ttf);
+}
+@font-face {
+    font-family:"latomedium" ;
+    src: url(../assets/fonts/latomedium.ttf);
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.title{
+    font-weight: 300;
+font-size: 63px;
+line-height: 76px;
+color: #070707;
+position: relative;
+    &::before{
+        position: absolute;
+        left: -217px;
+        top: 73px;
+        content: "";
+        display: flex;
+        width: 200px;
+        height: 1px;
+        background: #C4C4C4;;
+        
+    }
+}
+
+@import "block/_header.scss";
+@import "block/_info.scss";
+@import "block/_gallery.scss";
+@import "block/_presentation.scss";
+@import "block/_layouts.scss";
+@import "block/_video.scss";
+@import "block/_about.scss";
+@import "block/_mortgage.scss";
+@import "block/_declaration.scss";
+@import "block/_map.scss";
+@import "block/_footer.scss";
+@import "block/_slider.scss";
