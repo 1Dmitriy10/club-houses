@@ -1,5 +1,10 @@
 import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+import { animationCircle } from "./animation.js";
+import { info } from "./info.js";
 
+
+info()
+animationCircle()
 
 const gallery = new Swiper('.gallery__slider', {
 

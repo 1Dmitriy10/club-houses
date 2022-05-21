@@ -187,6 +187,10 @@ color: #070707;
     display: flex;
     align-items: center;
     position: relative;
+    transition: 00.4s;
+    &:hover{
+        transform: scale(102%);
+    }
 }
 .header__content-btn {
     width: 300px;
@@ -203,6 +207,8 @@ line-height: 23px;
 text-transform: uppercase;
 color: #FFFFFF;
 border: none;
+cursor: pointer;
+
 
 }
 .header__content-text {

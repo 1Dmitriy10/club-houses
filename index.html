@@ -37,8 +37,9 @@
                 <div class="header__top-contact">
                     <div class="header__top-logo"></div>
                     <div class="header__top-social">
-                        <div class="header__top-whatsapp"></div>
-                        <div class="header__top-telegram"></div>
+                        <a class="header__top-whatsapp" href="#"></a>
+                        <a class="header__top-telegram" href="#"></a>
+
                     </div>
                     <div class="header__top-phon">
                         <span class="header__top-text">Круглосуточная горячая линия: </span>
@@ -66,6 +67,11 @@
     <main>
         <section class="info">
             <div class="container info-container">
+                <iframe class="info__video" src="https://www.youtube.com/embed/7rFuRg3q9F8" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <button class="info__video-exit">x</button>
                 <ul class="info__list">
                     <li class="info__list-item">
                         <h3 class="info__item-title">
@@ -101,24 +107,28 @@
                     </li>
                 </ul>
                 <div class="info-box">
-                    <div class="info-video">
+
+                    <button class="info-video">
                         <div class="info-dark-ellepse"></div>
                         <div class="info-white-ellepse"></div>
                         <div class="info-logo-play"></div>
                         <div class="info-video-bg"></div>
-                        <button class="info-btn">
+                        <div class="info-btn">
                             Посмотрите видео о<br> проекте
-                        </button>
-                    </div>
-                    <div class="info-map">
-                        <div class="info-dark-ellepse"></div>
-                        <div class="info-white-ellepse"></div>
-                        <div class="info-map-logo"></div>
-                        <div class="info-map-white-bg"></div>
-                        <button class="info-btn">
-                            Посмотрите<br> расположение на карте
-                        </button>
-                    </div>
+                        </div>
+                    </button>
+                    <a class="info-map-link" href="https://yandex.ru/maps/-/CCUFn6GqXC">
+                        <div class="info-map">
+                            <div class="info-dark-ellepse"></div>
+                            <div class="info-white-ellepse"></div>
+                            <div class="info-map-logo"></div>
+                            <div class="info-map-white-bg"></div>
+                            <div class="info-btn">
+                                Посмотрите<br> расположение на карте
+                            </div>
+                        </div>
+                    </a>
+
                 </div>
             </div>
         </section>
