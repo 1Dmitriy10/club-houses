@@ -1,8 +1,9 @@
 import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
 import { animationCircle } from "./animation.js";
 import { info } from "./info.js";
+import { getMenu } from "./burgerMenu.js";
 
-
+getMenu()
 info()
 animationCircle()
 

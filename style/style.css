@@ -91,10 +91,11 @@ body {
 }
 
 .burger-menu {
+  top: 30px;
   width: 370px;
   height: 800px;
   border-radius: 10px;
-  background-color: rgb(35, 35, 35);
+  background-color: rgba(129, 212, 175, 0.973);
   z-index: 10;
   position: absolute;
   opacity: 0;
@@ -246,14 +247,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #FF8847;
+  background: #ff8847;
   border-radius: 50px;
   font-family: "latomedium";
   font-weight: 500;
   font-size: 15px;
   line-height: 23px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   border: none;
   cursor: pointer;
 }
@@ -310,6 +311,16 @@ body {
   position: absolute;
   left: 249px;
   top: 131px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 35px;
+  transition: 0.4s;
+}
+.nav-link:hover {
+  color: rgb(99, 147, 179);
 }
 
 .info {
