@@ -1,7 +1,7 @@
 .gallery{
     display: flex;
     flex-direction: column;
-    min-height: 1397px;
+   
 }
 .slide-5{
     width: 384px;
@@ -68,6 +68,7 @@ padding-bottom: 36px;
     left: 265px;
     z-index: 10;
     position: absolute;
+    cursor: pointer;
 }
 .gallery-slider-next{
     background: 
@@ -78,6 +79,7 @@ padding-bottom: 36px;
     right: 265px;
     z-index: 10;
     position: absolute;
+    cursor: pointer;
 }
 .gallery__expert-box{
     display: flex;
@@ -151,20 +153,32 @@ height: 480px;
     position: absolute;
     justify-content: center;
 }
-.bul{
-    background-color: red;
-    border-radius: 100%;
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev{
+opacity: 0;
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next{
+    opacity: 0;  
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev{
+    opacity: 0;  
+}
+.swiper-pagination-bullet{
+    font-size: 50px;
+    padding-right: 24px; 
+    background: transparent;
+    
+}
+.pagination-bul{
+    background-color: #FFFFFF;
     border: 1px solid black;
+    border-radius: 50%;
     width: 61px;
     height: 61px;
 }
-.swiper-pagination-bullet-active-next{
-    opacity: 0;
-    position: absolute;
+span.swiper-pagination-bullet-active-main{
+    background-color: transparent;
 }
-.swiper-pagination-bullet-active-prev{
-    opacity: 0;
-    position: absolute;
-}
+
+
 
 
